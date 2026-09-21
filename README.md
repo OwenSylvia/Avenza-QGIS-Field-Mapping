@@ -29,7 +29,7 @@ During tracking navigation, infrastructure data points were assessed and categor
 * **Overgrowth**: (Minor, Moderate, Severe): Flora or any type of greenery conflicting with trail, no cases were observed or cataloged. 
 
 ## Repository Contents
-* `project_tracking_line.geojson` - Web-optimized track vector file containing continuous GPS navigation paths, elevations, and track data up the pass.
+* `Refugio_Tracking_Line.geojson` - Web-optimized track vector file containing continuous GPS navigation paths, elevations, and track data up the pass.
 * `vegetation_type_geojson` - Categorized point vectors indicating specific vegetation classes.
 * `trail_conditions_geojson` - Point vectors marking infrastructure and trail accessibility hazards.
 * `Final_Map_output.png` - Finalized high-resolution printable cartographic layout document.
