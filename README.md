@@ -6,7 +6,7 @@ This is an independent GIS field project focused on mapping trail infrastructure
 ## Spatial Visualization
 The completed map layout is shown below, with high-resolution global satellite imagery projected on the field survey track, classified vegetation communities, and highlighted trail preservation issues.
 
-![Refugio Pass Field Map](Final_Map_output.png)
+![Refugio Pass Field Map](Final_Map_Output.png)
 
 ## Data Collection & Methodology
 * **Field Data Acquisition:** Avenza Maps were used to actively gather geographic tracks, geospatial positions, and localized field notes while navigating the Refugio Pass.
