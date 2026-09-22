@@ -35,14 +35,16 @@
         `<div class="popup-desc">${desc}</div>`
       );
     }
-fetch('Refugio.Tracking.Line.Final.geojson')
-  .then(r => r.json())
-  .then(data => {
-    L.geoJSON(data, {
-      style: { color: '#ff8c00', weight: 3, opacity: 0.9 }
-    }).addTo(map);
-  })
-  .catch(err => console.error('tracking_line.geojson failed to load:', err));
+
+    // Tracking line — loads first so it sits underneath the points
+    fetch('Refugio.Tracking.Line.Final.geojson')
+      .then(r => r.json())
+      .then(data => {
+        L.geoJSON(data, {
+          style: { color: '#ff8c00', weight: 3, opacity: 0.9 }
+        }).addTo(map);
+      })
+      .catch(err => console.error('Refugio.Tracking.Line.Final.geojson failed to load:', err));
 
     fetch('vegetation.Final.geojson')
       .then(r => r.json())
@@ -54,7 +56,7 @@ fetch('Refugio.Tracking.Line.Final.geojson')
           onEachFeature: bindPopup
         }).addTo(map);
       })
-      .catch(err => console.error('vegetation_new.geojson failed to load:', err));
+      .catch(err => console.error('vegetation.Final.geojson failed to load:', err));
 
     fetch('trail.conditions.Final.geojson')
       .then(r => r.json())
@@ -71,7 +73,7 @@ fetch('Refugio.Tracking.Line.Final.geojson')
           onEachFeature: bindPopup
         }).addTo(map);
       })
-      .catch(err => console.error('trail_new.geojson failed to load:', err));
+      .catch(err => console.error('trail.conditions.Final.geojson failed to load:', err));
   </script>
 </body>
 </html>
