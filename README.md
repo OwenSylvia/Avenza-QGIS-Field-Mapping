@@ -9,6 +9,7 @@ This is an independent GIS field project focused on mapping trail infrastructure
 
 ## Spatial Visualization
 The completed map layout is shown below, with high-resolution global satellite imagery projected on the field survey track, classified vegetation communities, and highlighted trail preservation issues.
+![Refugio Pass Final Map](Final_Map_Output.png)
 
 ## Interactive Map
 
