@@ -1,4 +1,4 @@
-# Refugio Pass Estate Management & Hospitality Geospatial Framework
+# Refugio Pass Estate Management & Hospitality Reference Map
 **Comprehensive Field Audit Portfolio | 16.2-Mile Operations & Guest Experience Proof-of-Concept**
 
 ## Executive Summary
@@ -23,11 +23,6 @@ When a guest joins a tour, they can follow along on their phone as your team lea
 
 The same map can carry hazard and maintenance data (erosion, downed trees, blocked access) so crews know exactly where to go — keeping guest routes safe without the work ever being visible.
 
-## Commercial Value Metrics (KPIs)
-* **Total Audited Footprint:** 16.2 Miles of Continuous Spatial Field Tracking
-* **Resource Assessment Locales:** Discrete point features logging botanical zones and pathway infrastructure.
-* **Data Standards:** Non-Proprietary Open-Source Web-Optimized GeoJSON.
-
 ## Spatial Visualization
 Below is the finalized premium estate layout displaying the 16.2-mile trail network corridor, categorized ecological assets, and structural preservation priorities overlaid on high-resolution global satellite imagery.
 
@@ -36,6 +31,10 @@ Below is the finalized premium estate layout displaying the 16.2-mile trail netw
 **Interactive Map**: With descriptions and photos.
 <iframe src="https://owensylvia.github.io/Avenza-QGIS-Field-Mapping/" width="100%" height="500" style="border:none;"></iframe>
 
+## Commercial Value Metrics (KPIs)
+* **Total Audited Footprint:** 16.2 Miles of Continuous Spatial Field Tracking
+* **Resource Assessment Locales:** Discrete point features logging botanical zones and pathway infrastructure.
+* **Data Standards:** Non-Proprietary Open-Source Web-Optimized GeoJSON.
 
 ## Operational Methodology & Field Implementation
 1. **Mobile Data Capture:** Spatial tracking paths and asset vectors were mapped dynamically on-the-ground using advanced mobile GPS data collectors while navigating the terrain.
