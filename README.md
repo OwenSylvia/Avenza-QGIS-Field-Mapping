@@ -3,6 +3,10 @@
 ## Project Overview
 This is an independent GIS field project focused on mapping trail infrastructure, evaluating backcountry geographical conditions, and cataloging local flora groups of Refugio Pass. Using mobile data acquisition tools and desktop spatial analysis, this project produces a baseline geographic record of the ecological distribution and pathway degradation in the Santa Ynez mountain range.
 
+## Key Performance Indicators (KPIs)
+* **Total Survey Distance:** 16.2 Miles (Continuous GPS Backcountry Tracking)
+* **Data Delivery Format:** Non-Proprietary Open-Source Web-Optimized GeoJSON (Full 3D Geometry)
+
 ## Spatial Visualization
 The completed map layout is shown below, with high-resolution global satellite imagery projected on the field survey track, classified vegetation communities, and highlighted trail preservation issues.
 
