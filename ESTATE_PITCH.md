@@ -4,11 +4,25 @@
 ## Executive Summary
 This independent project serves as a premium commercial proof-of-concept for high-end private estates, multi-acre ranches, and luxury wineries looking to optimize their spatial asset management and elevate their guest experiences. Utilizing a 16.2-mile backcountry footprint along Refugio Pass (Santa Ynez Mountains), this project demonstrates an end-to-end framework for mobile data acquisition, interactive asset tracking, and ecological resource mapping.
 
-Large geographic properties face distinct challenges balancing operational logistics, fire mitigation, and guest satisfaction.. This repository demonstrates how raw field data is converted into high-precision, software-ready deliverables (GeoJSON layers) that assist operations and improve the visitor experience:
+## What My Maps Can Do for Your Property
 
-1. **Guest Experience & Terroir Storytelling:** Creating visual resources that enable estates to create immersive, carefully planned excursions, such as mapping native habitat boundaries, environmental zoning, and customized experience itineraries that allow visitors to uncover the core character of the land.
-2. **Operations & Risk Management:** Giving estate managers interactive, geotagged danger coordinates to effectively deploy maintenance teams and reduce property liability, ensuring a smooth and secure behind-the-scenes experience.
-   
+This project is a **working demonstration** — proof that raw field data can become a polished, interactive map that works beautifully alongside guided tours. The specific points here (vegetation, trail conditions) were collected on a hike to show the process end-to-end. But the same approach applies to whatever matters on **your** property.
+
+### A Richer Guided Experience
+
+When a guest joins a tour, they can follow along on their phone as your team leads them. As you pass each stop, they tap the point and see a description, a photo, a story — the vineyard block they're standing in front of, the varietal and planting year, tasting notes, a heritage oak, a viewpoint. It turns a walk into something guests can revisit and share long after the tour ends. The map can be shown on a screen in a tasting room to highlight the route and encourage interest, embedded on your website to give visitors a sneak peek at the experience, and used as a reference for guests during guided tours.
+
+### What the Points Can Be, Tailored to You
+
+- **Vineyard blocks** — varietal, planting year, tasting notes for each stop on the tour
+- **Terroir & habitat zones** — native boundaries, shaded spots, wildlife areas worth pointing out
+- **Tasting & experience stops** — overlooks, olive groves, picnic spots your guides route through
+- **Tour routes** — the exact path your team walks, mapped so guests can follow along
+
+### Behind the Scenes, It Keeps Operations Safe
+
+The same map can carry hazard and maintenance data (erosion, downed trees, blocked access) so crews know exactly where to go — keeping guest routes safe without the work ever being visible.
+
 ## Commercial Value Metrics (KPIs)
 * **Total Audited Footprint:** 16.2 Miles of Continuous Spatial Field Tracking
 * **Resource Assessment Locales:** Discrete point features logging botanical zones and pathway infrastructure.
@@ -28,27 +42,6 @@ Below is the finalized premium estate layout displaying the 16.2-mile trail netw
 2. **System Integration:** Raw spatial vector information was exported as a unified data packet and integrated into a professional desktop GIS suite (**QGIS 3.44 LTR**) for data isolation, validation, and styling.
 3. **Web Optimization:** Coordinates were scrubbed and packaged into lightweight GeoJSON structures to ensure the maps can load seamlessly on standard mobile browsers, estate tablets, or via tasting room QR codes.
 4. **Cartographic Georeferencing:** Property vectors were perfectly aligned and georeferenced over projected high-resolution satellite imagery, verifying real-world accuracy down to individual canopy and pathway boundaries.
-
-## Property Attribute & Classification Schema
-
-### Estate Hospitality & Ecological Zoning
-Mapping native plant boundaries allows estates and wineries to create educational guest trail networks, build self-guided vineyard tours, and monitor ecological assets:
-* **Chaparral Slopes:** Identifying dense native woody shrublands (Chamise, Manzanita, Ceanothus) along property margins to analyze microclimates and prioritize mandatory seasonal wildfire fuel-load abatement.
-* **Oak Woodland:** Mapping protected native canopy resources (such as mature Coast Live Oaks). This allows hospitality teams to map shaded guest recreational trails, picnic overlooks, or identify critical wildlife habitat zones.
-* **Grassland clearings:** Cataloging open, sun-exposed meadows to evaluate soil exposure margins for potential future vineyard block expansion, lavender fields, or olive grove placement.
-
-### Infrastructure Logistics & Liability Mitigation
-To maintain secure access routes for estate operations, emergency vehicles, and guest safety, pathway infrastructure features were surveyed and classified by preservation urgency:
-
-* **Geological Slope & Erosion Concerns:** 
-  * *Minor:* Light, stable soil movement safely off the main vehicle or hiking path.
-  * *Moderate:* Active rock fragmentation presenting a minor clearing priority to maintain smooth road access.
-  * *Severe:* Unstable rock formations or deep washouts requiring immediate crew routing to eliminate property degradation and guest liability.
-* **Downed Trees & Boundary Blockages:**
-  * *Minor:* Small fallen branches easily cleared beside the trail network margin.
-  * *Moderate:* Medium timber fall slightly narrowing the pathway or impacting perimeter fencing.
-  * *Severe:* Large timber completely blocking access roads, requiring immediate chainsaw deployment to restore emergency vehicle clearance.
-* **Overgrowth & Encroachment Monitoring:** Continuous monitoring field column to identify where aggressive flora encroaches on guest clearance boundaries. 
 
 ## Digital Asset Deliverables Folder
 * `Refugio_Tracking_Line.geojson` - Main infrastructure vector path detailing 16.2 miles of exact continuous trail/road placement, track data, and 3D elevation slope values.
