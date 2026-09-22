@@ -47,7 +47,7 @@
       })
       .catch(err => console.error('Refugio.Tracking.Line.Final.geojson failed to load:', err));
 
-    fetch('vegetation.Final.geojson')
+    fetch('vegetation.final.geojson')
       .then(r => r.json())
       .then(data => {
         L.geoJSON(data, {
@@ -59,7 +59,7 @@
       })
       .catch(err => console.error('vegetation.Final.geojson failed to load:', err));
 
-    fetch('trail.conditions.Final.geojson')
+    fetch('trail.conditions.final.geojson')
       .then(r => r.json())
       .then(data => {
         L.geoJSON(data, {
