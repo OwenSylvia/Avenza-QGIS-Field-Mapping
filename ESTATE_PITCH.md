@@ -4,10 +4,11 @@
 ## Executive Summary
 This independent project serves as a premium commercial proof-of-concept for high-end private estates, multi-acre ranches, and luxury wineries looking to optimize their spatial asset management and elevate their guest experiences. Utilizing a 16.2-mile backcountry footprint along Refugio Pass (Santa Ynez Mountains), this project demonstrates an end-to-end framework for mobile data acquisition, interactive asset tracking, and ecological resource mapping.
 
-Large geographic properties face distinct challenges balancing operational logistics, fire mitigation, and customer engagement. This repository showcases how raw field data is successfully transformed into high-precision, software-ready deliverables (**GeoJSON** layers) that serve a dual business purpose:
-1. **Hospitality & Terroir Mapping:** Generating visual assets that allow estates to map environmental zoning, native habitat margins, and custom guest experiential paths.
-2. **Operations & Risk Management:** Providing estate managers with interactive, geo-tagged hazard coordinates to deploy maintenance crews efficiently and lower property liability.
+Large geographic properties face distinct challenges balancing operational logistics, fire mitigation, and guest satisfaction.. This repository demonstrates how raw field data is converted into high-precision, software-ready deliverables (GeoJSON layers) that assist operations and improve the visitor experience:
 
+1. **Guest Experience & Terroir Storytelling:** Creating visual resources that enable estates to create immersive, carefully planned excursions, such as mapping native habitat boundaries, environmental zoning, and customized experience itineraries that allow visitors to uncover the core character of the land.
+2. **Operations & Risk Management:** Giving estate managers interactive, geotagged danger coordinates to effectively deploy maintenance teams and reduce property liability, ensuring a smooth and secure behind-the-scenes experience.
+   
 ## Commercial Value Metrics (KPIs)
 * **Total Audited Footprint:** 16.2 Miles of Continuous Spatial Field Tracking
 * **Resource Assessment Locales:** Discrete point features logging botanical zones and pathway infrastructure.
@@ -16,7 +17,11 @@ Large geographic properties face distinct challenges balancing operational logis
 ## Spatial Visualization
 Below is the finalized premium estate layout displaying the 16.2-mile trail network corridor, categorized ecological assets, and structural preservation priorities overlaid on high-resolution global satellite imagery.
 
-![Refugio Pass Estate Map Layout](Final_Map_output.png)
+![Refugio Pass Estate Map Layout](Final_Map_Output.png)
+
+**Interactive Map**: With descriptions and photos.
+<iframe src="https://owensylvia.github.io/Avenza-QGIS-Field-Mapping/" width="100%" height="500" style="border:none;"></iframe>
+
 
 ## Operational Methodology & Field Implementation
 1. **Mobile Data Capture:** Spatial tracking paths and asset vectors were mapped dynamically on-the-ground using advanced mobile GPS data collectors while navigating the terrain.
