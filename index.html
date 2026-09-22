@@ -25,16 +25,17 @@
     }).addTo(map);
 
     function bindPopup(feature, layer) {
-      const p = feature.properties;
-      const title = p.name || p.Name || 'Point';
-      const type = p.type || '';
-      const desc = p.description || 'No description yet.';
-      layer.bindPopup(
-        `<div class="popup-title">${title}</div>` +
-        (type ? `<div class="popup-type">${type}</div>` : '') +
-        `<div class="popup-desc">${desc}</div>`
-      );
-    }
+  const p = feature.properties;
+  const title = p.name || p.Name || 'Point';
+  const type = p.type || '';
+  const desc = p.description || 'No description yet.';
+  const photo = p.photo ? `https://raw.githubusercontent.com/OwenSylvia/Avenza-QGIS-Field-Mapping/main/${p.photo}` : '';
+  let html = `<div class="popup-title">${title}</div>`;
+  if (type) html += `<div class="popup-type">${type}</div>`;
+  if (photo) html += `<img src="${photo}" style="width:100%; border-radius:6px; margin-bottom:6px;">`;
+  html += `<div class="popup-desc">${desc}</div>`;
+  layer.bindPopup(html);
+}
 
     // Tracking line — loads first so it sits underneath the points
     fetch('Refugio.Tracking.Line.Final.geojson')
